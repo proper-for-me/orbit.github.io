@@ -1,0 +1,22 @@
+site_name: Mydocs 튜토리얼
+nav: 
+  - '내용': 'how.md'
+  - study :
+    - 리액트 : 
+      - ... | study/react/*.md
+      # - 'chap1': 'study/react/chap1.md'
+      # - chap2: 'study/react/chap2.md'
+      # - chap3: 'study/react/tree.md'
+
+theme: ivory
+
+plugins:
+    - search
+    - awesome-pages
+        # filename: .index
+        # collapse_single_pages: true
+        # strict: false
+        # order: asc
+        # sort_type: natural
+        # order_by: title
+
